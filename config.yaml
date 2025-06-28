@@ -1,0 +1,35 @@
+relays:
+    - url: "wss://nos.lol"
+      until: "June 26, 2025 10:03:07"
+      interval: 1
+    - url: "wss://relay.damus.io"
+      until: "June 26, 2025 09:06:25"
+      interval: 1
+    - url: "wss://relay.nostr.band"
+      until: "June 26, 2025 21:37:01"
+      interval: 1
+      # others
+filter:
+    kinds:
+        - 0 # KindProfileMetadata
+        - 1 # KindTextNote
+        - 3 # KindFollowList
+        - 4 # KindEncryptedDirectMessage
+        - 6 # KindRepost
+        - 7 # KindReaction
+        - 16 # KindGenericRepost
+        - 17 # KindComment
+        - 18 # KindArticle
+        - 20 # KindMedia
+        - 25 # KindTinyNotes
+        - 30000 # KindBookmarkList
+        - 30001 # KindInterestList
+        - 30002 # KindGoodWikiAuthorList
+        - 30003 # KindCategorizedPeopleList
+        - 30004 # KindBookmarkSets
+        - 30005 # KindCuratedSets
+        - 30311 # KindLiveEvent
+        - 9734 # KindZapRequest
+        - 9735 # KindNutZap
+        - 9802 # KindHighlights
+    limit: 500
