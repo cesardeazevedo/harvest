@@ -3,7 +3,7 @@
 A small terminal ui app to harvest data from nostr relays
 
 .demo
-image::demo.png[demo, width=500]
+image::demo.png[demo, width=900]
 
 config.yaml
 
